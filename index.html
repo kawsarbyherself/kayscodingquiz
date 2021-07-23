@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Quiz</title>
+    <link href="style.css" rel="stylesheet">
+    <script defer src="java.js"></script>
+</head>
+<body>
+    <h1>Coding Quiz</h1>
+
+    <header class="timing">
+        <div class= "card-timer">
+            <div class= "timer-text">
+                <h3 class="timing">seconds remaining</h3>
+                <div id="timer" class="timing">20</div>
+                
+            </div>
+        </div>
+    </header>
+
+
+    <div id="question_container" class="hide">
+        <div id="question" class="ques">Question</div>
+        <div id="answer_buttons" class="btn-grid">
+            <button class="btn">Answer 1</button> 
+            <button class="btn">Answer 2</button> 
+            <button class="btn">Answer 3</button> 
+            <button class="btn">Answer 4</button> 
+        </div>
+    </div>
+    <div class="controls">
+        <button id="start_btn" class="start-btn">Start</button>
+        <button id="next_btn" class="next-btn hide">Next</button>
+    </div>
+
+    <div class="hide" id="timeout">Timeout!</div>
+
+ 
+
+    
+</body>
+</html>
